@@ -132,4 +132,22 @@ describe("add", function (){
     it('should return 5 when 2 and 3 are passed', function () {
         expect(add(2, 3)).toBe(5);
     });
+    it('should return -12 when -3 and -9 are passed', function () {
+        expect(add(-3, -9)).toBe(-12);
+    });
+    it('should return 11 when "5" and 6 are passed', function () {
+        expect(add("5", 6)).toBe(11);
+    });
+    it('should return 6 when "-4" and "10" are passed', function () {
+        expect(add("-4", "10")).toBe(6);
+    });
+    it('should return NaN when "banana" and "split" are passed', function () {
+        expect(add("banana", "split")).toBeNaN();
+    });
+    it('should return NaN when 2 and "apples" are passed', function () {
+        expect(add(2, "apples")).toBeNaN();
+    });
+    it('should return NaN when no argument is passed', function () {
+        expect(add()).toBeNaN();
+    });
 })
