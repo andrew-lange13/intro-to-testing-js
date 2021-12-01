@@ -16,3 +16,11 @@ function sayHello(input) {
         return "Hello, World!"
     }
 }
+
+////    isFIve
+
+function isFive(n) {
+    return parseInt(n) === 5;
+}
+
+console.log(isFive("g"))
