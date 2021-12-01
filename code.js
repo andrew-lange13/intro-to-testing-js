@@ -30,3 +30,14 @@ function isEven(x) {
 }
 
 //// isVowel
+
+function isVowel(input){
+    return input === "a" || input === "A";
+}
+
+
+////// add
+
+function add(x, y){
+    return 2 + 3
+}
