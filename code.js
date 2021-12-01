@@ -23,4 +23,10 @@ function isFive(n) {
     return parseInt(n) === 5;
 }
 
-console.log(isFive("g"))
+//////    isEven
+
+function isEven(x) {
+    return parseInt(x) % 2 === 0;
+}
+
+//// isVowel
